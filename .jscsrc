@@ -12,8 +12,13 @@
   "requireSpaceBeforeKeywords": ["else"],
   // there must be a space before else statement
 
+
   "disallowSpaceBeforeSemicolon": true,
   // semicolons can't have a space before them
+  
+  "disallowSpaceBeforeComma": true,
+  // disallows spaces before commas
+
 
   "maximumLineLength": false,
   // disable line length limit
