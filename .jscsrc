@@ -1,0 +1,23 @@
+{
+  "preset": "google",
+  // use google code style guide preset
+
+
+  "disallowAnonymousFunctions": true,
+  // don't allow anonymous functions for FP and debug reasons
+
+  "disallowKeywords": ["this"],
+  // don't use this
+
+  "requireSpaceBeforeKeywords": ["else"],
+  // there must be a space before else statement
+
+  "disallowSpaceBeforeSemicolon": true,
+  // semicolons can't have a space before them
+
+  "maximumLineLength": false,
+  // disable line length limit
+
+  "validateIndentation": 2
+  // make sure all indendtation is two spaces
+}
